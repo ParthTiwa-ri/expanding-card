@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Cubano";
+  src: url("/font/Cubano.ttf") format("truetype"); /* Path to your font file */
+}
+:root {
+  --background: #12181b;
+  --on-background: white;
+  --tw-gradient-from: #6a95fe;
+  --tw-gradient-to: #f06;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --on-background-1: rgb(178, 190, 205);
+  --surface: #2a2e34;
+  --primary: #0bc371;
+}
+body {
+  background-color: var(--background);
+  height: 100vh;
+  font-family: "Cubano", sans-serif;
+}
